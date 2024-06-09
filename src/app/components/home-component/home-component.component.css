@@ -1,0 +1,19 @@
+#backgroundimg-1{
+  background-image: url(../../../../public/assets/background_1.png);
+  height: 100vh;
+  width: auto;
+}
+
+.home-text{
+  position:fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Center the text */
+  text-align: center;
+  font-size: 60px;
+}
+
+.txt-size{
+  font-size: 60px;
+}
+
