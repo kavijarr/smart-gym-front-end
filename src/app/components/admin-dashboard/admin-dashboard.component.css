@@ -1,0 +1,16 @@
+.dashboard {
+    margin-left: 0px;
+    padding-top: 100px;
+  }
+  .card {
+    width: 150px;
+  }
+  .btn-group .btn {
+    margin: 10px;
+  }
+  hr {
+    border: none; /* Remove default border */
+    height: 10px; /* Set the height of the line */
+
+    background-color: rgb(255, 255, 255); /* Set the background color to white */
+  }

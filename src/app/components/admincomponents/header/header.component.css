@@ -1,0 +1,6 @@
+.header {
+    width: calc(100% - 200px);
+    position: absolute;
+    right: 0;
+  }
+  
