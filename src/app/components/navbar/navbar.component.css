@@ -1,6 +1,6 @@
 .logo-img{
-  max-width: 50px;
-  max-width: 50px;
+  max-width: 70px;
+  max-width: 70px;
 }
 
 .navbar-btn{
@@ -11,4 +11,9 @@
       margin-left : 1em;
       margin-right : 1em;
   }
+}
+
+.nav-font{
+  font-size: 20px !important;
+  margin: 0px;
 }
