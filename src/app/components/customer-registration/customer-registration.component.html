@@ -37,24 +37,27 @@
        
         <div class="form-group">
             <label for="photo">Choose a photo to upload</label>
-            <input
+             <input
                 type="file"
                 class="form-control-file"
                 id="photo"
+                accept="image/*"
                 #fileInput
                 (change)="onFileSelected($event)"
                 required
+                hidden
             />
         </div>
-        <button type="button" class="btn btn-primary" (click)="fileInput.click()">
-            <img class="uploadlogo mt-3" src="assets/upload.png" alt="">
-        </button>
-        <button type="submit" class="btn btn-primary" [disabled]="!selectedFile">
-            Submit
-        </button>
-        
+        <div class="col">
+            <button type="button" class="btn btn-dark" (click)="fileInput.click()">
+              <img class="uploadlogo mt-3" src="assets/uploadprofile.png" alt="">
+          </button> 
+           
+        <!-- <label for="img-chooser"><img class="uploadlogo mt-3" src="assets/upload.png" alt=""></label>
+        <input type="file" id="img-chooser"> -->
+        </div>
         <div class="col-12">
-          <button type="submit" class="btn btn-primary">Sign in</button>
+          <button type="submit" class="btn btn-success btn-lg">Submit</button>
         </div>
       </form>
     </div>
