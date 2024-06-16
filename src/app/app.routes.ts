@@ -3,12 +3,15 @@ import { AdminDashboardComponent } from './components/admin-dashboard/admin-dash
 import { HomeComponentComponent } from './components/home-component/home-component.component';
 import { CustomerRegistrationComponent } from './components/customer-registration/customer-registration.component';
 import { CoachesRegistrationComponent } from './components/coaches-registration/coaches-registration.component';
+import { SignInComponent } from './components/sign-in/sign-in.component';
+
 export const routes: Routes = [
   {
     path:"",
     component:HomeComponentComponent
   },
   {
+
     path:"admin",
     component:AdminDashboardComponent
   },
@@ -19,5 +22,9 @@ export const routes: Routes = [
   {
     path:"coach-reg",
     component:CoachesRegistrationComponent
+
+    path:"signin",
+    component:SignInComponent
+
   }
 ];
