@@ -22,7 +22,8 @@ export const routes: Routes = [
   {
     path:"coach-reg",
     component:CoachesRegistrationComponent
-
+  },
+  {
     path:"signin",
     component:SignInComponent
 
