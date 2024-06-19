@@ -1,16 +1,55 @@
 .dashboard {
-    margin-left: 0px;
-    padding-top: 100px;
-  }
-  .card {
-    width: 150px;
-  }
-  .btn-group .btn {
-    margin: 10px;
-  }
-  hr {
-    border: none; /* Remove default border */
-    height: 10px; /* Set the height of the line */
+  margin-left: 0px;
+  padding-top: 100px;
+}
 
-    background-color: rgb(255, 255, 255); /* Set the background color to white */
-  }
+.card {
+  width: 150px;
+}
+
+.btn-group .btn {
+  margin: 10px;
+  background-color: #1ECB44;
+  font-weight: bold;
+  font-size: 32px;
+  border-radius: 37px;
+}
+
+hr {
+  border: none;
+  /* Remove default border */
+  height: 10px;
+  /* Set the height of the line */
+  background-color: white;
+  /* Set the background color to white */
+}
+
+.cus-b {
+  background-color: #1ECB44;
+  color: white;
+}
+
+.card-text {
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+  justify-content: center;
+}
+
+.text-c {
+  border-radius: 18px;
+  width: 50vw;
+  font-size: 20px;
+}
+
+.btn-sea {
+
+  font-size: 16px;
+  font-weight: bold;
+  width: 100px;
+  height: 45px;
+}
+
+*{
+  overflow: hidden;
+}

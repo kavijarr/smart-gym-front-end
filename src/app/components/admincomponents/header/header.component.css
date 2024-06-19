@@ -4,3 +4,15 @@
     right: 0;
   }
   
+.btn-s{
+   
+   font-size: 27px;
+   font-weight: bold;
+   border-radius: 40px;
+   width: 121px;
+   height: 50px;
+   background-color: #1ECB44;
+   padding: 0px;
+   text-align: center;
+   padding-bottom: 3px;
+}
