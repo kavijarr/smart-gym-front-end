@@ -1,54 +1,74 @@
 .customer-registration {
-    background-color: #000;
-    border-radius: 10px;
-  }
-  
-  .customer-registration h2, 
-  .customer-registration p {
-    color: #fff;
-  }
-  
-  .customer-registration .form-control {
-    background-color: #333;
-    border: none;
-    color: #fff;
-  }
-  
-  .customer-registration .form-control::placeholder {
-    color: #888;
-  }
-  
-  .customer-registration .upload-picture {
-    width: 100px;
-    height: 100px;
-    background-color: #444;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 10px;
-    cursor: pointer;
-  }
-  
-  .customer-registration .upload-icon {
-    font-size: 40px;
-    color: #fff;
-  }
-  
-  .customer-registration .btn-primary {
-    background-color: #6f42c1;
-    border: none;
-  }
-  
-  .customer-registration .btn-success {
-    background-color: #28a745;
-    border: none;
-  }
-  .main-content {
-    margin-left: 200px;
-    padding: 20px;
-  }
-  .uploadlogo {
-    max-width: 50px !important;
-    max-height: 50px;
-  }
-  
+  background-color: #000;
+  border-radius: 10px;
+}
+
+.customer-registration h2,
+.customer-registration p {
+  color: #fff;
+}
+
+.customer-registration .form-control {
+  background-color: #333;
+  border: none;
+  color: #fff;
+}
+
+.customer-registration .form-control::placeholder {
+  color: #888;
+}
+
+.customer-registration .upload-picture {
+  width: 100px;
+  height: 100px;
+  background-color: #444;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.customer-registration .upload-icon {
+  font-size: 40px;
+  color: #fff;
+}
+
+.customer-registration .btn-primary {
+  background-color: #6f42c1;
+  border: none;
+}
+
+.customer-registration .btn-success {
+  background-color: #28a745;
+  border: none;
+  width: 200px;
+  height: 40px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  align-items: center;
+  padding: 0px;
+  border-radius: 30px;
+}
+
+.main-content {
+  margin-left: 200px;
+  padding: 20px;
+}
+
+.uploadlogo {
+  max-width: 50px !important;
+  max-height: 50px;
+}
+
+.text-space{
+
+  font-size: 20px;
+}
+
+.text-reg {
+  font-size: 24px;
+  font-weight: bold;
+
+}
