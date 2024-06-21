@@ -1,15 +1,15 @@
 <div class="d-flex">
   <div class="sidebar">
     <a href="#" class="active">Home</a>
-    <a href="#">Administrator</a>
+    <a href="#" [routerLink]="['/admin']">Administrator</a>
 
-    <a href="#" id="navbardrop" data-toggle="dropdown">
+    <a id="navbardrop" data-toggle="dropdown" disabled>
       Registration
     </a>
     <div class="">
-      <a class="dropdown-item" href="#">Customer</a>
-      <a class="dropdown-item" href="#">Coaches</a>
-      <a class="dropdown-item" href="#">Admin</a>
+      <a class="dropdown-item" href="#" [routerLink]="['/customer-reg']">Customer</a>
+      <a class="dropdown-item" href="#" [routerLink]="['/coach-reg']">Coaches</a>
+      <a class="dropdown-item" href="#" [routerLink]="['/admin-reg']">Admin</a>
 
     </div>
     <a href="#">Payments</a>

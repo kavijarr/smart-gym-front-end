@@ -4,6 +4,7 @@ import { HomeComponentComponent } from './components/home-component/home-compone
 import { CustomerRegistrationComponent } from './components/customer-registration/customer-registration.component';
 import { CoachesRegistrationComponent } from './components/coaches-registration/coaches-registration.component';
 import { SignInComponent } from './components/sign-in/sign-in.component';
+import { AdminRegistrationComponent } from './components/admin-registration/admin-registration.component';
 
 export const routes: Routes = [
   {
@@ -27,5 +28,9 @@ export const routes: Routes = [
     path:"signin",
     component:SignInComponent
 
+  },
+  {
+    path:"admin-reg",
+    component:AdminRegistrationComponent
   }
 ];
