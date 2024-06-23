@@ -72,3 +72,11 @@
   font-weight: bold;
 
 }
+
+.background{
+
+  background-color: black;
+  background-size: cover;
+  height: 100vh;
+}
+

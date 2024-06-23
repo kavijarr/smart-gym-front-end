@@ -78,3 +78,10 @@
   font-size: 20px;
   
 }
+
+.background{
+
+  background-color: black;
+  background-size: cover;
+  height: 100vh;
+}

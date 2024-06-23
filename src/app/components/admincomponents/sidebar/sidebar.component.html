@@ -1,17 +1,19 @@
 <div class="d-flex">
-  <div class="sidebar">
+  <div class="sidebar" [class.show]="isSidebarOpen" [class.hide]="!isSidebarOpen && isMobileView">
     <a href="#" class="active">Home</a>
     <a href="#" [routerLink]="['/admin']">Administrator</a>
-
-    <a id="navbardrop" data-toggle="dropdown" disabled>
-      Registration
-    </a>
-    <div class="">
+    <a id="navbardrop" data-toggle="dropdown" disabled>Registration</a>
+    <div>
       <a class="dropdown-item" href="#" [routerLink]="['/customer-reg']">Customer</a>
       <a class="dropdown-item" href="#" [routerLink]="['/coach-reg']">Coaches</a>
       <a class="dropdown-item" href="#" [routerLink]="['/admin-reg']">Admin</a>
-
     </div>
     <a href="#">Payments</a>
+  </div>
+  <div class="main-content">
+    <div class="header">
+      <button class="btn btn-green hamburger-icon" (click)="toggleSidebar()">&#9776;</button>
+    </div>
+    <!-- Your main content goes here -->
   </div>
 </div>

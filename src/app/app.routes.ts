@@ -5,6 +5,7 @@ import { CustomerRegistrationComponent } from './components/customer-registratio
 import { CoachesRegistrationComponent } from './components/coaches-registration/coaches-registration.component';
 import { SignInComponent } from './components/sign-in/sign-in.component';
 import { AdminRegistrationComponent } from './components/admin-registration/admin-registration.component';
+import { UserProfileComponent } from './components/user-profile/user-profile.component';
 
 export const routes: Routes = [
   {
@@ -32,5 +33,9 @@ export const routes: Routes = [
   {
     path:"admin-reg",
     component:AdminRegistrationComponent
+  },
+  {
+    path:"user-pro",
+    component:UserProfileComponent
   }
 ];

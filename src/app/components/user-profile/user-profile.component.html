@@ -1,0 +1,46 @@
+<div id="backgroundimg-1">
+  <app-navbar></app-navbar>
+  <div class="row">
+    <div class="col-2">
+       
+    </div>
+    <div class="col">
+    <div class="container-fluid customer-registration p-4 text-white">
+      <h2 class="text-center">Coaches Registration</h2>
+      <div class="photo">
+        <button type="button" class="btn btn-dark" (click)="fileInput.click()">
+          <img class="uploadlogo mt-3" src="assets/uploadprofile.png" alt="">
+      </button> 
+    </div>
+      <div class="text-head">
+
+          <p class="text-reg">Registration Number :-  NS#00001</p>
+          <p class="text-reg">User Name :-  NS</p>
+          
+      </div>
+    
+    
+
+        <div class="form-group photo">
+            <label class="text-space text-plan">My Plans</label>
+             <input
+                type="file"
+                class="form-control-file"
+                id="photo"
+                accept="image/*"
+                #fileInput
+                (change)="onFileSelected($event)"
+                required
+                hidden
+            />
+        </div>
+      
+    </div>
+  </div>
+</div>
+</div>
+
+
+   
+  
+  

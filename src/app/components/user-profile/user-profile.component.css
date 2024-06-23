@@ -42,6 +42,14 @@
   .customer-registration .btn-success {
     background-color: #28a745;
     border: none;
+    width: 200px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    align-items: center;
+    padding: 0px;
+    border-radius: 30px;
   }
   
   .main-content {
@@ -54,35 +62,34 @@
     max-height: 50px;
   }
   
+  .text-space{
+  
+    font-size: 20px;
+  }
+  
   .text-reg {
     font-size: 24px;
     font-weight: bold;
   
   }
-  
-  .btn-save {
-  
-    border-radius: 30px;
-    background-color: #28a745;
-    width: 200px;
-    height: 40px;
-    font-size: 20px;
-    font-weight: bold;
-    text-align: center;
-    align-items: center;
-    padding: 0px;
-  }
-  
-  .text-space{
-  
-    font-size: 20px;
-    
+
+  .text-head{
+           
+    margin-left: 400px;
+    margin-top: 100px;
   }
 
-  .background{
+  .photo{
+         
+    margin-top: 0px !important;
+  }
 
-    background-color: black;
-    background-size: cover;
+  .text-plan{
+    font-size: 50px;
+  }
+
+  #backgroundimg-1{
+    background-image: url(../../../../public/assets/background_1.png);
     height: 100vh;
+    width: auto;
   }
-  
